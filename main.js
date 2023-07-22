@@ -23,6 +23,8 @@ const resumeCanvas = {
 
 class Particle {
     constructor(x, y) {
+        this.color = randomColor();
+        this.strokeColor = randomColor();
         this.x = x;
         this.y = y;
         this.size = Math.random() * 5 + 1;
@@ -51,8 +53,8 @@ class Particle {
         }
     }
     draw() {
-        ctx.fillStyle = 'rgba(173, 216, 230, 1)'; // LightBlue color for the particles, change it as you need
-        ctx.strokeStyle = 'rgba(173, 216, 230, 0.8)';
+        ctx.fillStyle = this.color;
+        ctx.strokeStyle = this.strokeColor;
         ctx.lineWidth = 2;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
@@ -60,6 +62,9 @@ class Particle {
         ctx.fill();
         ctx.stroke();
     }
+}
+function randomColor() {
+    return `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 1)`;
 }
 
 function init() {
