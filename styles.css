@@ -1,3 +1,23 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.ticker__list {
+  display: inline-flex;
+  animation: ticker 10s linear infinite;
+  /* Adjust the timing above as needed */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+#jobTechStack {
+ 
+  animation: marquee 10s linear infinite;
+}
