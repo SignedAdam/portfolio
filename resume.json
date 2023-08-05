@@ -1,0 +1,149 @@
+{
+    "name": "Adam Albastov",
+    "location": "Luxembourg",
+    "email": "adam7792@gmail.com",
+    "phone": "+32 483 00 82 82",
+    "website": "albastov.com",
+    "summary": "I strive to be the driving force of any team and do not shy away from going out of my comfort zone to meet deadlines and exceed expectations\n\nI enjoy responsibility and accountability (for both good and bad outcomes) which I believe are the main factors that enable my personal growth as an engineer.",
+    "languages": ["English", "Russian", "French", "Dutch"],
+    "coreSkills": ["Go", "Python", "GCP", "PostgreSQL", "Software Architecture", "API Architecture", "Docker", "Kubernetes", "gRPC", "Microservices", "Git", "IoT"],
+    "experience": [
+        {
+            "title": "Founder / Software Engineer",
+            "company": "IrisAI",
+            "location": "Luxembourg",
+            "iconPath": "assets/irisai.png",
+            "startDate": "2023-05",
+            "endDate": "present",
+            "techStack": [
+                "Go", "Python", "Docker", "OpenAI", 
+                "PostgresQL", "AWS Lambda", "TailwindCSS",
+                "javascript"
+            ],
+            "description": "",
+            "responsibilities":[],
+            "achievements": []
+        },
+        {
+            "title": "Senior Software Engineer",
+            "company": "One Concern",
+            "location": "San Francisco, CA",
+            "iconPath": "assets/oneconcern.png",
+            "startDate": "2022-01",
+            "endDate": "2023-01",
+            "techStack": [
+                "Go", "GraphQL", "Docker", "auth0", 
+                "Keycloak", "DataDog", "Kubernetes", "PostgresQL", 
+                "CockroachDB", "CircleCI", "react", "typescript"
+            ],
+            "description": "OneConcern creates natural disaster prediction models for high risk areas and provides extremely detailed and accurate infrastructure damage prediction data to insurance companies and businesses in order to bring awareness to key areas and weak points.",
+            "responsibilities": [
+                "Maintain the GraphQL API schemas & database",
+                "Maintain and improve the microservice architecture of multiple products",
+                "Write highly efficient code responsible for ingesting and aggregating large volumes of prediction data coming in from ML pipelines",
+                "Build actionable overviews of the operation and potential inefficiencies in the workings of our systems to stakeholders through metrics, tracing, logging and using DataDog dashboards",
+                "Work closely with product, front end and data science teams to design, groom and implement new features and product offerings",
+                "Responsibility for contributions by following up with QA and users to fix any potential issues",
+                "Write and maintain comprehensive documents for things like deployment and instructions for contributing to various components of our codebase"
+            ],
+            "achievements": []
+        },
+        {
+            "title": "Senior Software Engineer",
+            "company": "Trendhim",
+            "location": "Horsens, Denmark",
+            "iconPath": "assets/trendhim.jpg",
+            "startDate": "2021-03",
+            "endDate": "2022-01",
+            "techStack": [
+                "Go", "grpc", "REST", "Temporal", "CockroachDB", 
+                "Docker", "Bazel", "soap"
+            ],
+            "description": "Leading men's accessory webshop shipping to over 40 countries worldwide. I was part of the task of migrating the entire platform from a Magento PHP monolith to a microservice architecture in Go",
+            "responsibilities": [
+                "Migrating major components of the existing platform to Go, with minimal to no downtime",
+                "Integrate with new shipping partners for better shipping rates and faster delivery times",
+                "Develop failure resistant systems using Temporal",
+                "Responsible over entire logistics domain services - shipping, tracking, returns"
+            ],
+            "achievements": []
+        },
+        {
+            "title": "Software Engineer",
+            "company": "X-CITE S.A.",
+            "location": "Luxembourg",
+            "iconPath": "assets/xcite.png",
+            "startDate": "2019-05",
+            "endDate": "2021-03",
+            "techStack": [
+                "Go", "GRPC", "protobuf", "REST", "AWS", 
+                "GCP", "Gitlab", "BigQuery", "PubSub", 
+                "Cognito", "Firebase", "JWT", "OpenCensus",
+                "Redis", "IoT"
+            ],
+            "description": "Development of scalable micro-services with a focus on IoT and connectivity between devices and servers",
+            "responsibilities": [
+                "built and maintained authentication and authorization middleware (Cognito + Firebase)",
+                "fast prototyping of new services and features",
+                "implement adapt services to ingest IoT data from various sources (MQTT, HTTP, TCP, UDP)"
+            ],
+            "achievements": [
+                "Landed Nokia as a partner for our 5G plans, by going full throttle for a week straight and delivering."
+            ]
+        },
+        {
+            "title": "Software Developer",
+            "company": "FreeCast Inc",
+            "location": "Florida, USA",
+            "iconPath": "assets/freecast.jpg",
+            "startDate": "2018-01",
+            "endDate": "2019-05",
+            "techStack": ["PHP", "node.js", "javascript", "html", "css", "WordPress"],
+            "description": "multimedia firm that provides streaming media and video-on-demand services to consumers via a network of over 3,000 online channels.",
+            "responsibilities": [
+                "Optimising websites and implementing new features using PHP, javascript and node.js",
+                "General web development"
+            ],
+            "achievements": []
+        },
+        {
+            "title": "Software Developer",
+            "company": "Self-Employed",
+            "location": "Antwerp, Belgium",
+            "iconPath": "assets/selfemployed.jpg",
+            "startDate": "2015",
+            "endDate": "2018",
+            "techStack": ["Delphi", "Pascal", "C#", "SQL"],
+            "description": "",
+            "responsibilities": [
+                "Wrote bots and scripts to automate farming virtual currency in online video games", 
+                "Finding and exploiting networking vulnerabilities (using packet interception and injection)", 
+                "Analysing and understanding packet structures in order to find vulnerabilities", 
+                "Working closely with a small group of people (1-3)", 
+                "Automating every possible detail", 
+                "Exploiting big rewards on small scale, small rewards on very big scale (2000+ accounts doing small - almost-meaningless tasks daily and then automatically having the network of bots move the currency to central accounts to prepare for sale)", 
+                "Selling virtual currencies to my own built network of buyers."
+            ],
+            "achievements": [
+                "stonks"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Informatica (Software engineering)",
+            "institution": "Karel de Grote-Hogeschool",
+            "yearAttended": "2013 - 2015",
+            "notes": "Dropped out after 1.5 years to pursue a bigger opportunity"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Google Associate Cloud Engineer",
+            "institution": "Google",
+            "issueDate": "2020-09",
+            "expiryDate": "2022-09",
+            "verificationCode": "vfuXgJ"
+        }
+    ]
+}
