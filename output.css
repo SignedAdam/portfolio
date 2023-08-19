@@ -664,7 +664,7 @@ video {
 
 .ticker__list {
   display: inline-flex;
-  animation: ticker 10s linear infinite;
+  animation: marquee 10s linear infinite;
   /* Adjust the timing above as needed */
 }
 
@@ -677,10 +677,11 @@ video {
   }
 }
 
-#jobTechStack {
- 
+
+#coreSkillsList {
   animation: marquee 10s linear infinite;
 }
+
 
 @media (min-width: 768px) {
 
