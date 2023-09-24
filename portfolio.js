@@ -51,7 +51,7 @@ function populateCoreSkills(coreSkills) {
         let newCoreSkillNode = coreSkillSampleNode.cloneNode(true);
 
         newCoreSkillNode.querySelector("span").textContent = coreSkill;
-        newCoreSkillNode.querySelector("img").src = "./assets/" + coreSkill.replace(" ", "_") + ".svg";
+        newCoreSkillNode.querySelector("img").src = "./assets/" + coreSkill.replace(" ", "_").toLowerCase() + ".svg";
 
         let imgEl = new Image();
 
@@ -71,7 +71,7 @@ function populateCoreSkills(coreSkills) {
           newCoreSkillNode.style.backgroundColor = "grey"; // Fallback color if image load fails
           resolve(newCoreSkillNode);
         };
-        imgEl.src = "./assets/" + coreSkill.replace(/ /g, "_") + ".svg";
+        imgEl.src = "./assets/" + coreSkill.replace(/ /g, "_").toLowerCase() + ".svg";
       })
     );
   }
@@ -130,7 +130,7 @@ function populateExperience(experience) {
           let techStackNode = jobTechStackSampleNode.cloneNode(true);
 
           techStackNode.querySelector("span").textContent = stackItem;
-          techStackNode.querySelector("img").src = "./assets/" + stackItem.replace(" ", "_") + ".svg";
+          techStackNode.querySelector("img").src = "./assets/" + stackItem.replace(" ", "_").toLowerCase() + ".svg";
 
           let imgEl = new Image();
 
@@ -151,7 +151,7 @@ function populateExperience(experience) {
             techStackNode.style.backgroundColor = "grey"; // Fallback color if image load fails
             resolve(techStackNode);
           };
-          imgEl.src = "./assets/" + stackItem.replace(/ /g, "_") + ".svg";
+          imgEl.src = "./assets/" + stackItem.replace(/ /g, "_").toLowerCase() + ".svg";
         })
       );
     }
