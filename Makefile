@@ -1,7 +1,12 @@
 # make command for launching server
 .PHONY: serve
 
+
 serve:
+	@npm run build
+	@http-server
+	
+serve-local:
 	@npm run build
 	@http-server --cors -c-1 -p 8777
 
