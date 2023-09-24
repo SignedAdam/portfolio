@@ -4,8 +4,8 @@
 
 serve:
 	@npm run build
-	@http-server
-	
+	@node server.js
+
 serve-local:
 	@npm run build
 	@http-server --cors -c-1 -p 8777

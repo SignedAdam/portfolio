@@ -4,12 +4,13 @@
   "main": "main.js",
   "scripts": {
     "build": "postcss styles.css -o output.css"
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.4.14",
+    "express": "^4.18.2",
     "postcss": "^8.4.27",
     "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.3.3"
